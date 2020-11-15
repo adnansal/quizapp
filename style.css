@@ -1,0 +1,61 @@
+.container{
+  background-image: url("/cool-background.png");
+}
+
+.row > [class^=col] {
+    padding: 2%;
+  /*  background-color: #687a8c;
+     border: 1px solid rgba(86,61,124,.2); */
+}
+
+
+.label{
+    display: block;
+}
+button{
+  background-color: #14D1CE;
+}
+
+input[type="radio"] {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #1FBED6;
+    background-color: white;
+    padding-right: 2px;
+    -webkit-appearance: none; /*to disable the default appearance of radio button*/
+    -moz-appearance: none;
+    
+    
+  }
+  
+  input[type="radio"]:focus { /*no need, if you don't disable default appearance*/
+    outline: none; /*to remove the square border on focus*/
+  }
+  
+  input[type="radio"]:checked { /*no need, if you don't disable default appearance*/
+    background-color: #1FBED6;
+  }
+  
+  input[type="radio"]:checked ~ span:first-of-type {
+    color: white;
+  }
+  
+  label span:first-of-type {
+    position: relative;
+    left: -27px;
+    font-size: 15px;
+    color: #1FBED6;
+  }
+  
+  label span {
+    position: relative;
+    top: -12px;
+    white-space:nowrap;
+  }
+  .opt{
+      margin-left: 20px;
+  }
+
+  #a{
+    height: 300px;
+  }
